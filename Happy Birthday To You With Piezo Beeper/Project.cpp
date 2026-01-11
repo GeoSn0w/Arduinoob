@@ -29,7 +29,7 @@ void loop() {
 }
 
 void beep(int frequency, int duration) {
-  tone(piezo, frequency);
+  tone(piezo, frequency); //https://docs.arduino.cc/language-reference/en/functions/advanced-io/tone/
   delay(duration * 0.7);
   noTone(piezo); //https://docs.arduino.cc/language-reference/en/functions/advanced-io/noTone/
   delay(duration * 0.3);
